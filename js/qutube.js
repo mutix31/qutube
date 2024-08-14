@@ -12,7 +12,7 @@ console.log = console.log || function(){};
 
 // loading the youtube API v3
  function googleApiClientReady(){
-                gapi.client.setApiKey('AIzaSyArAfw4QoBhHm3cjb01iCkYy8SGiEIU8RM');
+                gapi.client.setApiKey('AIzaSyAzY7noObHLIYwpx1Z3pkub-1PMCTrHbHM');
                 gapi.client.load('youtube', 'v3', function() {console.log('ready');loadDefault();});
         }
 
